@@ -1,0 +1,73 @@
+body{
+    background-color: #0EE6F3;
+}
+.empresa{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 145px;
+    
+}
+.servicios{
+    text-align: center;
+    position: relative;
+    bottom: 310px;
+    font-family: berlin sans fb;
+    font-size: 45px;
+    color: #424242;
+    font-weight: 200;
+    
+}
+.container1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height:300px;
+    position: relative;
+    bottom: 300px;
+    
+}
+.adm{
+    display:inline-block;
+    position: relative;
+    top:100px;
+    width: 125px;
+    height: 145px;
+    border-radius: 15px;
+    background-color: #0D47A1;
+    
+}
+.usr{
+    display:inline-block;
+    position: relative;
+    left:245px;
+    top:100px;
+    width: 125px;
+    height: 145px;
+    border-radius: 15px;
+    background-color: #0D47A1;  
+}
+.adm:hover{
+    cursor:pointer;
+}
+.usr:hover{
+    cursor:pointer;
+}
+.mng{
+    font-weight: 100;
+    font-family: berlin sans fb;
+    font-size: 13px;
+    color: yellow;
+}
+.user{
+    font-weight: 100;
+    font-family: berlin sans fb;
+    font-size: 13px;
+    color: yellow;
+}
+@media screen and (max-width:580px){
+    .empresa, .servicios, .ingreso, .user, .mng, .usr, .adm, .head1{
+        width:auto;
+    }}

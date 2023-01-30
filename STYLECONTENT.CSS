@@ -1,0 +1,432 @@
+body{
+    background-color: #0EE6F3;
+}
+
+.img1{
+    border: 3px;
+    width: 290px;
+    height:320px;
+    position:relative;
+    bottom:265px;
+}
+.titulo{
+    text-align:center;
+    position:relative;
+    left:125px;
+    bottom:15px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    color: #424242;
+    font-size:50px;
+   
+}
+.subtitulo{
+    text-align:center;
+    position:relative;
+    left:125px;
+    bottom:15px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    color: #424242;
+    font-size:30px
+    
+    
+}
+.menunav{
+    display: inline-block;
+    background:rgb(245, 141, 4);
+    color:#1b1a1a;
+    padding:10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    
+}
+.navmenu{
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    bottom:340px;  
+   
+    
+}
+.div4{
+    position:relative;
+    width:480px;
+    height:410px;
+   
+    bottom:230px;
+    left:100px;
+}
+.p1{
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:60px;
+    color:#1A237E;
+}
+.cont1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height:300px;
+    position: relative;
+    bottom: 650px;
+    background: #1565C0;
+    border-radius: 15px;
+    left:350px;
+}
+.id{
+    position: relative;
+    left:80px;
+    top:20px;
+    border-radius: 6px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+}
+.cont{
+    position: relative;
+    left:80px;
+    top:45px;
+    border-radius: 6px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+}
+.fec{
+    position: relative;
+    left:90px;
+    top:70px;
+    border-radius: 6px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+}
+.ingreso{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:100px;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: yellow;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    color:  #0D47A1;
+}
+.ingreso:hover{
+    cursor:pointer;
+}
+.busqueda{
+    text-align: center;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    position:relative;
+    top: 10px;
+    color: yellow;
+}
+.gest{
+    position:relative;
+    width:480px;
+    height:410px;
+    bottom:330px;
+    left:420px;
+}
+.gestion{
+    text-align: center;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:30px;
+    color:#1A237E;
+}
+.crear{
+    display: block;
+    position:relative;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:60px;
+    left:85px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.editar{
+    display: block;
+    position:relative;
+    padding-left: 79px;
+    padding-right: 79px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:110px;
+    left:85px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.eliminar{
+    display: block;
+    position:relative;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:160px;
+    left:85px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.categorias{
+    position:relative;
+    width:480px;
+    height:410px;
+    bottom:330px;
+    left:420px;
+}
+.categ{
+    text-align: center;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:30px;
+    color:#1A237E;
+}
+.contables{
+    display: block;
+    position:relative;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:60px;
+    left:50px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.legales{
+    display: block;
+    position:relative;
+    padding-left: 94px;
+    padding-right: 94px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:110px;
+    left:51px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.otros{
+    display: block;
+    position:relative;
+    padding-left: 103px;
+    padding-right: 103px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:160px;
+    left:51px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.crearcat{
+    display: block;
+    position:relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:210px;
+    left:52px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.gestion2{
+    position:relative;
+    width:480px;
+    height:410px;
+    bottom:330px;
+    left:420px;
+}
+.gest2{
+    text-align: center;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:30px;
+    color:#1A237E;
+}
+.guardar{
+    display: block;
+    position:relative;
+    padding-left: 102px;
+    padding-right: 102px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:60px;
+    left:45px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.descargar{
+    display: block;
+    position:relative;
+    padding-left: 94px;
+    padding-right: 94px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:110px;
+    left:45px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.escanear{
+    display: block;
+    position:relative;
+    padding-left: 101px;
+    padding-right: 101px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:160px;
+    left:45px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.imprimir{
+    display: block;
+    position:relative;
+    padding-left: 108px;
+    padding-right: 108px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:210px;
+    left: 45px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.normatividad{
+    position:relative;
+    width:480px;
+    height:410px;
+    bottom:330px;
+    left:420px;
+}
+.normatividad2{
+    text-align: center;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:30px;
+    color:#1A237E;
+}
+.politica{
+    display: block;
+    position:relative;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:60px;
+    left:30px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.norma1{
+    display: block;
+    position:relative;
+    padding-left: 112px;
+    padding-right: 112px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:110px;
+    left:30px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.norma2{
+    display: block;
+    position:relative;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:160px;
+    left:30px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+.decretos{
+    display: block;
+    position:relative;
+    padding-left: 108px;
+    padding-right: 108px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    top:210px;
+    left: 30px;
+    font-family: berlin sans fb;
+    font-weight: 200;
+    font-size:20px;
+    border-radius: 10px;
+    background: #1565C0;
+    color:yellow;
+}
+@media screen and (max-width:580px){
+    .titulo, .subtitulo, .menunav, .navmenu, .div4, .p1, .cont1, .id, .cont, .fec, .ingreso, 
+    .busqueda, .gest, .gestion, .crear, .editar, .eliminar, .categorias, .categ, .contables, .legales,
+    .otros, .crearcat, .gestion2, .gest2, .guardar, .descargar, .escanear, .imprimir, .normatividad,
+    .normatividad2, .politica, .norma1, .norma2, .decretos{
+        width:auto;
+        flex-direction: column;
+    }}
